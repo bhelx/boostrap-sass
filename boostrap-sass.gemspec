@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "boostrap-sass"
   spec.version       = Boostrap::Sass::VERSION
   spec.authors       = ["Benjamin Eckel"]
-  spec.email         = ["benjamin.eckel@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["bhelx@simst.im"]
+  spec.description   = %q{boo!}
+  spec.summary       = %q{boo!}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  s.post_install_message = <<-MSG
+  spec.post_install_message = <<-MSG
 
       .'``'.      ...
      :o  o `....'`  ;
@@ -33,7 +33,6 @@ Gem::Specification.new do |spec|
                  `...     `.
      boo!            ``...  `.
                           `````.
-
 
   MSG
 end
