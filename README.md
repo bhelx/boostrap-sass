@@ -1,4 +1,8 @@
-I think you meant bootstrap-sass
+I think you meant bootstrap-sassS
+
+```
+gem install boostrap-sass
+```
 
 
       .'``'.      ...

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bhelx@simst.im"]
   spec.description   = %q{boo!}
   spec.summary       = %q{boo!}
-  spec.homepage      = ""
+  spec.homepage      = "http://rubygems.org/gems/boostrap-sass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
-  
+
   spec.add_runtime_dependency "bootstrap-sass"
 
   spec.post_install_message = <<-MSG
